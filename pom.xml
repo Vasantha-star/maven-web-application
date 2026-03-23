@@ -94,17 +94,17 @@
 	</dependencies>
 	
 	<distributionManagement>
-	
+<!--	
 	    <repository>
 	      <id>nexus</id>
 	      <name>Mithun Technologies Releases Nexus Repository</name>
 	      <url>http://172.31.42.154:9980/mithuntechnologies/repository/canarabank-snapshot/</url>
 	    </repository>
-	    
+	-->    
 	    <snapshotRepository>
 	      <id>nexus</id>
 	      <name>Mithun Technologies Snapshot Nexus Repository </name>
-	      <url>http://172.31.42.154:9980/mithuntechnologies/repository/canarabank-release/</url>
+	      <url>http://http://65.0.135.104:8081/repository/maven-standalone-snapshot/</url>
 	    </snapshotRepository>
 	    
 	</distributionManagement>
